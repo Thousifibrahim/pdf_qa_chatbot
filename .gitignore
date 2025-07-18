@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/ # Exclude your virtual environment
+.venv/
+bin/
+include/
+lib/
+lib64/
+local/
+share/
+pip-log.txt
+pip-delete-this-arg.txt
+.tox/
+.coverage
+.cache
+.pytest_cache/
+.mypy_cache/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE specific files
+.idea/ # For PyCharm
+.vscode/ # For VS Code (consider if you have specific team settings to share)
+*.swp # vim
+*~ # vim backup files
+
+# OS specific files
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+
+# Environment variables
+.env
+*.env # Crucial for sensitive information like API keys
+
+# Data and generated files (adjust based on your project's data handling)
+# If your chatbot creates local index files (like FAISS or ChromaDB),
+# or stores processed PDFs, exclude them if they can be regenerated or are large.
+# Examples:
+# index_data/
+# embeddings/
+# vector_store/
+# processed_pdfs/
+# uploaded_docs/
+
+# Logs
+*.log
